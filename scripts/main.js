@@ -45,6 +45,7 @@ $("a.smooth-scroll").click(function(event) {
 });
 
 // Photo Filter
+
 var activeFilter = "all";
 
 $(".ww-filter-button").on("click", function(e) {
