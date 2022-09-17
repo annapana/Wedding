@@ -772,6 +772,8 @@ pre {
   .offset-sm-11 {
     margin-left: 91.66667%; } }
 
+
+
 @media (min-width: 768px) {
   .col-md {
     flex-basis: 0;
@@ -809,8 +811,8 @@ pre {
     flex: 0 0 25%;
     max-width: 25%; }
   .col-md-4 {
-    flex: 0 0 33.33333%;
-    max-width: 33.33333%; }
+    flex: 0 0 50%;
+    max-width: 50%; }
   .col-md-5 {
     flex: 0 0 41.66667%;
     max-width: 41.66667%; }

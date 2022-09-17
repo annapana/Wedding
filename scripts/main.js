@@ -59,7 +59,13 @@ $(".ww-filter-button").on("click", function(e) {
   button.addClass("btn-primary");
   filterItems(button.data("filter"));
   e.preventDefault();
+
+  
+
+
 });
+
+ filterItems("Page 1");
 
 function filterItems(filter) {
   if (filter === activeFilter) {
@@ -73,6 +79,7 @@ function filterItems(filter) {
     var show = false;
     if (filter === "all") {
       show = true;
+
     } else {
       for (var i = 0; i < groups.length; i++) {
         if (groups[i] === filter) {
@@ -80,7 +87,11 @@ function filterItems(filter) {
         }
       }
     }
-    // hide everything first
+
+
+    // hide everything first+
+
+    
     card.fadeOut(400);
     setTimeout(function() {
       if (show && !card.is(":visible")) {
@@ -91,7 +102,10 @@ function filterItems(filter) {
 }
 
 // Light Box
+
 $(document).on("click", '[data-toggle="lightbox"]', function(event) {
   event.preventDefault();
   $(this).ekkoLightbox();
 });
+
+
