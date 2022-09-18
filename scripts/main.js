@@ -60,12 +60,10 @@ $(".ww-filter-button").on("click", function(e) {
   filterItems(button.data("filter"));
   e.preventDefault();
 
-  
-
-
 });
 
  filterItems("Page 1");
+
 
 function filterItems(filter) {
   if (filter === activeFilter) {
