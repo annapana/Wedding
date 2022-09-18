@@ -61,7 +61,8 @@ $(".ww-filter-button").on("click", function(e) {
   e.preventDefault();
 
 });
-
+  $(".ww-filter-button").addClass("btn-primary");
+  // $(".ww-filter-button").addClass("btn-outline-primary");
  filterItems("Page 1");
 
 
