@@ -54,7 +54,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #212529d1;
   text-align: left;
   background-color: #fff; }
 
@@ -7079,8 +7079,8 @@ button.bg-dark:focus {
 .font-italic {
   font-style: italic !important; }
 
-.text-white {
-  color: #000 !important; }
+/* .text-white {
+  color: #000 !important; } */
 
 .text-primary {
   color: #f58a77 !important; }
