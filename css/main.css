@@ -39,7 +39,7 @@ body {
       font-size: 70px; }
       @media (max-width: 576px) {
         .ww-home-page .ww-wedding-announcement .ww-couple-name {
-          font-size: 35px; } }
+          font-size: 31px; } }
 
 .ww-home-page:before {
   content: "";
