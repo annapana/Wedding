@@ -114,6 +114,6 @@ $(document).on("click", '[data-toggle="lightbox"]', function(event) {
 
 
 $(function() {
-  setTimeout(function(){ $("#landing").fadeOut() }, 800);
+  setTimeout(function(){ $("#landing").fadeOut() }, 1400);
   })
   
